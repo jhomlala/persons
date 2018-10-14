@@ -15,7 +15,7 @@ import android.widget.Toast;
 
 
 import com.jhomlala.persons.data.R;
-import com.jhomlala.persons.data.model.Person;
+import com.jhomlala.persons.model.Person;
 import com.jhomlala.persons.viewmodel.PersonViewModel;
 import com.jakewharton.rxbinding2.view.RxView;
 import com.jakewharton.rxbinding2.widget.RxTextView;

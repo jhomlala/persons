@@ -7,9 +7,9 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.jhomlala.persons.view.RecyclerViewClickListener;
-import com.jhomlala.persons.data.model.PersonViewHolder;
+import com.jhomlala.persons.model.PersonViewHolder;
 import com.jhomlala.persons.data.R;
-import com.jhomlala.persons.data.model.Person;
+import com.jhomlala.persons.model.Person;
 
 import java.util.List;
 

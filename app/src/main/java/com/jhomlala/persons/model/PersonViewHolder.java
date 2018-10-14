@@ -1,4 +1,4 @@
-package com.jhomlala.persons.data.model;
+package com.jhomlala.persons.model;
 
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;

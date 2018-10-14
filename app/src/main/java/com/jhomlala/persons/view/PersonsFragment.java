@@ -18,7 +18,7 @@ import android.widget.Toast;
 
 import com.jhomlala.persons.data.R;
 import com.jhomlala.persons.view.adapter.PersonAdapter;
-import com.jhomlala.persons.data.model.Person;
+import com.jhomlala.persons.model.Person;
 import com.jhomlala.persons.viewmodel.PersonViewModel;
 
 import java.util.ArrayList;

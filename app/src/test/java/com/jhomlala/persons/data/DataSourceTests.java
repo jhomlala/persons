@@ -1,7 +1,6 @@
 package com.jhomlala.persons.data;
 
-import com.jhomlala.persons.data.data.PersonDataSource;
-import com.jhomlala.persons.data.model.Person;
+import com.jhomlala.persons.model.Person;
 
 import org.junit.Before;
 import org.junit.Test;

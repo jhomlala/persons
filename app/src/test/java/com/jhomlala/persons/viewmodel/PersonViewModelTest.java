@@ -3,13 +3,12 @@ package com.jhomlala.persons.viewmodel;
 import android.arch.core.executor.testing.InstantTaskExecutorRule;
 import android.support.annotation.NonNull;
 
-import com.jhomlala.persons.data.model.Person;
+import com.jhomlala.persons.model.Person;
 
 import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Rule;
 import org.junit.Test;
-import org.junit.runner.RunWith;
 
 import java.util.concurrent.TimeUnit;
 
