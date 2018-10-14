@@ -5,10 +5,10 @@ Application includes MVVM architecture. It utilizes LiveData and ViewHolder with
 
 
 Features:
-1. User list
-2. New user form (simple form)
-3. Remove user (click on element in list)
-4. Generate new random Person every 5 seconds.
+1. Person list
+2. New person form (simple form)
+3. Remove person (click on element in list)
+4. Generate new random person every 5 seconds.
 
 <table>
 <tr>
