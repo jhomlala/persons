@@ -1,7 +1,9 @@
 # Persons
 Persons - MVVM + RxJava
 
-Application includes MVVM architecture. It utilizes RxAndroid and RxBinding.
+Application includes MVVM architecture. It utilizes LiveData and ViewHolder with RxAndroid and RxBinding.
+
+
 Features:
 1. User list
 2. New user form (simple form)
