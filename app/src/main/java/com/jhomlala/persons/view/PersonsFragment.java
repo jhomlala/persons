@@ -1,4 +1,4 @@
-package com.jhomlala.persons.myapplication.view;
+package com.jhomlala.persons.view;
 
 
 import android.app.ProgressDialog;
@@ -16,10 +16,10 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Toast;
 
-import com.jhomlala.persons.myapplication.R;
-import com.jhomlala.persons.myapplication.view.adapter.PersonAdapter;
-import com.jhomlala.persons.myapplication.model.Person;
-import com.jhomlala.persons.myapplication.viewmodel.PersonViewModel;
+import com.jhomlala.persons.data.R;
+import com.jhomlala.persons.view.adapter.PersonAdapter;
+import com.jhomlala.persons.data.model.Person;
+import com.jhomlala.persons.viewmodel.PersonViewModel;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -63,7 +63,9 @@ public class PersonsFragment extends Fragment {
     @Override
     public void onDestroyView() {
         super.onDestroyView();
-        mRemoveObservable.dispose();
+        if (mRemoveObservable != null) {
+            mRemoveObservable.dispose();
+        }
     }
 
     private void setupPersonRecycler(View rootView) {

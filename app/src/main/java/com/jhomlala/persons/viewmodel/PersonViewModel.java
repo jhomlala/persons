@@ -1,10 +1,10 @@
-package com.jhomlala.persons.myapplication.viewmodel;
+package com.jhomlala.persons.viewmodel;
 
 import android.arch.lifecycle.MutableLiveData;
 import android.arch.lifecycle.ViewModel;
 import android.util.Log;
-import com.jhomlala.persons.myapplication.data.PersonDataSource;
-import com.jhomlala.persons.myapplication.model.Person;
+import com.jhomlala.persons.data.data.PersonDataSource;
+import com.jhomlala.persons.data.model.Person;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
@@ -31,6 +31,7 @@ public class PersonViewModel extends ViewModel {
         );
     }
 
+
     public MutableLiveData<List<Person>> getPersons() {
         if (mPersons == null) {
             mPersons = new MutableLiveData<>();
@@ -48,7 +49,7 @@ public class PersonViewModel extends ViewModel {
 
     public void addPerson(Person person) {
         Log.i(TAG, "Add new person: " + person);
-        List<Person> tempList = mPersons.getValue();
+        List<Person> tempList = getPersons().getValue();
         tempList.add(person);
         mPersons.postValue(tempList);
     }
@@ -56,7 +57,7 @@ public class PersonViewModel extends ViewModel {
     public Boolean removePerson(int position) {
         try {
             Log.d(TAG,"Remove person on position: " + position);
-            List<Person> tempList = mPersons.getValue();
+            List<Person> tempList = getPersons().getValue();
             tempList.remove(position);
             //long task
             Thread.sleep(1000);

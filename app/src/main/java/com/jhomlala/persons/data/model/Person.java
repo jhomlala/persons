@@ -1,4 +1,4 @@
-package com.jhomlala.persons.myapplication.model;
+package com.jhomlala.persons.data.model;
 
 public class Person {
     private String name;

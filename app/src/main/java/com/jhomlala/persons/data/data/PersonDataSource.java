@@ -1,6 +1,6 @@
-package com.jhomlala.persons.myapplication.data;
+package com.jhomlala.persons.data.data;
 
-import com.jhomlala.persons.myapplication.model.Person;
+import com.jhomlala.persons.data.model.Person;
 
 import java.util.Random;
 

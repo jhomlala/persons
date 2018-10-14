@@ -1,4 +1,4 @@
-package com.jhomlala.persons.myapplication.view.adapter;
+package com.jhomlala.persons.view.adapter;
 
 import android.support.annotation.NonNull;
 import android.support.v7.widget.RecyclerView;
@@ -6,10 +6,10 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.jhomlala.persons.myapplication.view.RecyclerViewClickListener;
-import com.jhomlala.persons.myapplication.model.PersonViewHolder;
-import com.jhomlala.persons.myapplication.R;
-import com.jhomlala.persons.myapplication.model.Person;
+import com.jhomlala.persons.view.RecyclerViewClickListener;
+import com.jhomlala.persons.data.model.PersonViewHolder;
+import com.jhomlala.persons.data.R;
+import com.jhomlala.persons.data.model.Person;
 
 import java.util.List;
 

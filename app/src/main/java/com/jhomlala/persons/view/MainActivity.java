@@ -1,4 +1,4 @@
-package com.jhomlala.persons.myapplication.view;
+package com.jhomlala.persons.view;
 
 import android.support.annotation.Nullable;
 import android.support.design.widget.BottomNavigationView;
@@ -8,8 +8,8 @@ import android.support.v4.view.ViewPager;
 import android.os.Bundle;
 import android.util.Log;
 
-import com.jhomlala.persons.myapplication.R;
-import com.jhomlala.persons.myapplication.view.adapter.PageAdapter;
+import com.jhomlala.persons.data.R;
+import com.jhomlala.persons.view.adapter.PageAdapter;
 
 import java.util.ArrayList;
 import java.util.List;

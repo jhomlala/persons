@@ -1,12 +1,12 @@
-package com.jhomlala.persons.myapplication.model;
+package com.jhomlala.persons.data.model;
 
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 import android.view.View;
 import android.widget.TextView;
 
-import com.jhomlala.persons.myapplication.R;
-import com.jhomlala.persons.myapplication.view.RecyclerViewClickListener;
+import com.jhomlala.persons.data.R;
+import com.jhomlala.persons.view.RecyclerViewClickListener;
 
 public class PersonViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
 

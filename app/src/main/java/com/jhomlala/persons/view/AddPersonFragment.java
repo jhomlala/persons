@@ -1,4 +1,4 @@
-package com.jhomlala.persons.myapplication.view;
+package com.jhomlala.persons.view;
 
 import android.arch.lifecycle.ViewModelProviders;
 import android.os.Bundle;
@@ -14,9 +14,9 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 
-import com.jhomlala.persons.myapplication.R;
-import com.jhomlala.persons.myapplication.model.Person;
-import com.jhomlala.persons.myapplication.viewmodel.PersonViewModel;
+import com.jhomlala.persons.data.R;
+import com.jhomlala.persons.data.model.Person;
+import com.jhomlala.persons.viewmodel.PersonViewModel;
 import com.jakewharton.rxbinding2.view.RxView;
 import com.jakewharton.rxbinding2.widget.RxTextView;
 

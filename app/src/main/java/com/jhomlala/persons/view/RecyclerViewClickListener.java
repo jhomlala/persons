@@ -1,4 +1,4 @@
-package com.jhomlala.persons.myapplication.view;
+package com.jhomlala.persons.view;
 
 import android.view.View;
 
